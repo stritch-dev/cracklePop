@@ -1,0 +1,11 @@
+{
+  "name": "cracklepop",
+  "version": "1.0.0",
+  "description": "Also known as FizzBuzz",
+  "main": "cracklePop.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
