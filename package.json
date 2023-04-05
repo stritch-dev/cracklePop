@@ -4,7 +4,8 @@
   "description": "Also known as FizzBuzz",
   "main": "cracklePop.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+		"cracklepop": "node runCracklePop.js"
   },
   "author": "",
   "license": "ISC",
