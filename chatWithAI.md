@@ -20,9 +20,10 @@ fizz + buzz or i concatenates the two strings (if either or both are non-empty) 
 
 ### Jd L
 convert to js
-Certainly! Here's the JavaScript version of the FizzBuzz code:
 
 ### OpenAi Chat GPT
+Certainly! Here's the JavaScript version of the FizzBuzz code:
+
 ```
 for (let i = 1; i <= 100; i++) {
   let fizz = (i % 3 === 0) ? "Fizz" : "";

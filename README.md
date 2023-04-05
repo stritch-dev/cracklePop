@@ -38,7 +38,7 @@ But,
 ## Just for fun
 This algorithm can be written in fewer lines than I have used. I wanted the code to be easy to read and easy to understand. So, I used whole words where possible.
 
-After implementation, I thought to myself, "Surely, there is a more concise way to implement this. And is there a mathematical solution?  Having recently discovered that Chat GPT is yet another way to learn about programming, I turned to OpenAI's AI (https://chat.openai.com/chat). I prompted the AI system to implement FizzBuzz without any `if` statements or ternary operators. 
+After implementation, I thought to myself, "Surely, there is a more concise way to implement this. And, is there a mathematical solution?  Having recently discovered that Chat GPT is yet another way to learn about programming, I turned to OpenAI's AI (https://chat.openai.com/chat). I prompted the AI system to implement FizzBuzz without any `if` statements or ternary operators. Here is what it generated. Pretty slick. Thanks AI and thanks to the great number of programmers who's code you trained on.
 
 ```
 for (let i = 1; i <= 100; i++) {
@@ -49,7 +49,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-If you are interested in the complete interaction I had with the system it is HERE.
+If you are interested in the complete interaction I had with the AI system it is [here](chatWithAI.md)
 
 
 ## Thanks
