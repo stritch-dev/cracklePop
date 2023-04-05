@@ -3,10 +3,10 @@
 ## Purpose
 The application prints the numbers from one to one hundred  to the console.
 But, 
- *if a number is divisible by three and not five then instead of the number,
+ * if a number is divisible by three and not five then instead of the number,
 "Crackle" is printed.
- *if a number is divisible by five and not by three then "Pop" is printed.
- *if a number is divisible by both three and five, then CracklePop is printed.
+ * if a number is divisible by five and not by three then "Pop" is printed.
+ * if a number is divisible by both three and five, then CracklePop is printed.
 
  This is also know as FizzBuzz. 
 
