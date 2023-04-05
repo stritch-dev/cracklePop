@@ -1,7 +1,7 @@
 const cracklePop = (() => {
-	const pop = 'pop'
-	const crackle = 'crackle'
-	const cracklePop = 'cracklePop'
+	const pop = 'Pop'
+	const crackle = 'Crackle'
+	const cracklePop = 'CracklePop'
 
 	const divisibleBy = (dividend, divisor) =>  dividend % divisor === 0 
 
