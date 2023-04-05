@@ -7,12 +7,12 @@ const cracklePop = (() => {
 
 	const divisibleByThree = n =>  divisibleBy(n, 3) 
 	const divisibleByFive = n =>  divisibleBy(n, 5) 
-	const both = n => divisibleByThree(n) && divisibleByFive(n) 
+	const divisibleByBoth = n => divisibleByThree(n) && divisibleByFive(n) 
 	const count = () => {
 		const result = []
 
 		for(let i = 1; i < 101; i++){
-			if (both(i)) { result.push(cracklePop) } 
+			if (divisibleByBoth(i)) { result.push(cracklePop) } 
 			else if (divisibleByThree(i)) { result.push(crackle) } 
 			else if (divisibleByFive(i)) { result.push(pop) }
 			else { result.push(i) }
@@ -21,7 +21,7 @@ const cracklePop = (() => {
 		return result.join(" ")
 	}
 
-	return { divisibleByThree, divisibleByFive, both, count }
+	return { divisibleByThree, divisibleByFive, divisibleByBoth, count }
 })()
 
 module.exports = cracklePop

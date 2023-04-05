@@ -36,15 +36,15 @@ describe("Divides by 5 " , () => {
 
 describe("Divides by both three and five" , () => {
 		test("True for number divisible by both" , () => {
-				expect(cp.both(15)).toBe(true)
-				expect(cp.both(30)).toBe(true)
-				expect(cp.both(45)).toBe(true)
+				expect(cp.divisibleByBoth(15)).toBe(true)
+				expect(cp.divisibleByBoth(30)).toBe(true)
+				expect(cp.divisibleByBoth(45)).toBe(true)
 				})
 		test("False for number that are not divisible by both" , () => {
-				expect(cp.both(1)).toBe(false)
-				expect(cp.both(3)).toBe(false)
-				expect(cp.both(5)).toBe(false)
-				expect(cp.both(11)).toBe(false)
+				expect(cp.divisibleByBoth(1)).toBe(false)
+				expect(cp.divisibleByBoth(3)).toBe(false)
+				expect(cp.divisibleByBoth(5)).toBe(false)
+				expect(cp.divisibleByBoth(11)).toBe(false)
 				})
 		})
 
