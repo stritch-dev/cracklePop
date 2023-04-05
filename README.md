@@ -8,11 +8,11 @@ But,
  * if a number is divisible by five and not by three then "Pop" is printed.
  * if a number is divisible by both three and five, then CracklePop is printed.
 
- This is also know as FizzBuzz. 
+ This is also know as FizzBuzz where "Fizz" replaces "Crackle" and "Buzz" replaces "Pop."
 
 
  ## Install
- First, clone the repository, then run `npm install`
+ First, clone the repository, then run `npm install`. Here's a command that will both of those steps for you.
  ```
  git clone https://github.com/stritch-dev/cracklePop.git && cd cracklePop && npm install
 
@@ -36,15 +36,18 @@ But,
   
 
 ## Just for fun
-This algorithm can be written in fewer lines than I have used. I wanted the code to be easy to read and understand. Granted CracklePop/FizzBuzz is not a complicated problem, I chose to use whole words where possible. After implementation, I wanted to see a more concise version.  I turned to OpenAI's AI (https://chat.openai.com/chat). I've recently discovered that Chat GPT is yet another way to learn about programming. I prompted the AI system to implement FizzBuzz without any if statements or the ternary operator. While I didn't come up with this slick solution, a part of me figured/wondered if there was a mathematical way to solve the problem. This is what the AI presented 
-'''
+This algorithm can be written in fewer lines than I have used. I wanted the code to be easy to read and easy to understand. I chose to use whole words where possible.
+
+After implementation, thought to myself, "Surely, there is a more concise way to implement this. And is there a mathematical solution?  Having recently discovered that Chat GPT is yet another way to learn about programming, I turned to OpenAI's AI (https://chat.openai.com/chat). I prompted the AI system to implement FizzBuzz without any `if` statements or ternary operators. 
+
+```
 for (let i = 1; i <= 100; i++) {
   let output = "";
   output += "Fizz".repeat(i % 3 === 0 && 1);
   output += "Buzz".repeat(i % 5 === 0 && 1);
   console.log(output || i);
 }
-'''
+```
 
 If you are interested in the complete interaction I had with the system it is HERE.
 
