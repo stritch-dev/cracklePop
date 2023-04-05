@@ -1,9 +1,9 @@
 # cracklePop
 
 ## Purpose
-The application prints the numbers from one to one hundred  to the console.
+The application prints the numbers from 1-100 to the console.
 But, 
- * if a number is divisible by three and not five then instead of the number,
+ * if a number is divisible by three and not five then instead of the number, then
 "Crackle" is printed.
  * if a number is divisible by five and not by three then "Pop" is printed.
  * if a number is divisible by both three and five, then CracklePop is printed.
