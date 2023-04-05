@@ -65,7 +65,7 @@ describe("Produces the expected Crackle! Pop! sequence" , () => {
 		 "pop"]
 		 .join(' ')
 
-    result = cp.count(1,100)
+    result = cp.count()
 
 		expect(result).toEqual(expected)
 		})
