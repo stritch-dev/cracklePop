@@ -9,13 +9,14 @@ const cracklePop = (() => {
 	const divisibleByFive = n =>  divisibleBy(n, 5) 
 	const divisibleByBoth = n => divisibleByThree(n) && divisibleByFive(n) 
 	const count = () => {
-		const result = []
+		let result = []
 
 		for(let i = 1; i < 101; i++){
-			if (divisibleByBoth(i)) { result.push(cracklePop) } 
-			else if (divisibleByThree(i)) { result.push(crackle) } 
-			else if (divisibleByFive(i)) { result.push(pop) }
-			else { result.push(i) }
+			result = 
+				divisibleByBoth(i) ?  result.concat(cracklePop)  :
+					divisibleByThree(i) ?  result.concat(crackle)  :
+						divisibleByFive(i) ?  result.concat(pop)  :
+							result.concat(i)
 		}
 
 		return result.join(" ")
